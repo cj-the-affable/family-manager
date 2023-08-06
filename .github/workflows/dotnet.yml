@@ -29,3 +29,9 @@ jobs:
       run: dotnet test src/SoftwareSpokes.FamilyManager.sln --no-build --verbosity normal
     - name: Publish
       run: dotnet publish src/SoftwareSpokes.FamilyManager.Api/SoftwareSpokes.FamilyManager.Api.csproj -c Release -o website
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: website
+        path: src/website/**
+        if-no-files-found: error
