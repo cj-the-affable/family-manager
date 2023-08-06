@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareSpokes.FamilyManager.Api", "SoftwareSpokes.FamilyManager.Api\SoftwareSpokes.FamilyManager.Api.csproj", "{833ACCE9-8FE0-4F98-8F19-73A06F6678E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareSpokes.FamilyManager.Api", "SoftwareSpokes.FamilyManager\SoftwareSpokes.FamilyManager.Api.csproj", "{833ACCE9-8FE0-4F98-8F19-73A06F6678E3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareSpokes.FamilyManager.Console", "SoftwareSpokes.FamilyManager.Console\SoftwareSpokes.FamilyManager.Console.csproj", "{72082561-9900-42D3-A39F-3E6F86014AA3}"
 EndProject
