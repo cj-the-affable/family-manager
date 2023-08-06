@@ -26,3 +26,5 @@ jobs:
       run: dotnet build src/SoftwareSpokes.FamilyManager.sln --no-restore
     - name: Test
       run: dotnet test src/SoftwareSpokes.FamilyManager.sln --no-build --verbosity normal
+    - name: Publish
+      run: dotnet publish src/SoftwareSpokes.FamilyManager/SoftwareSpokes.FamilyManager.Api/SoftwareSpokes.FamilyManager.Api.csproj -c Release -o website
