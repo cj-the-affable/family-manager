@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "apis1": {
+      "apiEndpoint": "https://familymanagerapi.azure-api.net/family-manager",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/FamilyManagerApi/apis/FamilyManagerApi",
+      "type": "apis.azure"
+    }
+  }
+}
